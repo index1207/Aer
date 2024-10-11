@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package aer.api;
+option csharp_namespace = "Aer.Api";
+
+enum PacketId
+{
+}

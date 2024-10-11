@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package aer.api;
+option csharp_namespace = "Aer.Api.Object";
+
+message Player
+{
+    uint64 objectId = 1;
+}
